@@ -12,3 +12,5 @@ let info= {
     'age': '23'
 }
 console.log(info);
+info.address='Dhaka'
+console.log(info);
