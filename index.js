@@ -7,10 +7,14 @@ console.log(typeof name);
 // Object literal
 let info= {
     'name': 'Rikta',
-    'Bloodgroup': 'A+',
+    'bloodGroup': 'A+',
     'cgpa': '3.93',
     'age': '23'
 }
 console.log(info);
 info.address='Dhaka'
 console.log(info);
+//dot notation
+console.log(info.bloodGroup);
+//bracket notation
+console.log(info['bloodGroup']);
