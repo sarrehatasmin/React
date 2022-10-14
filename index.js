@@ -12,18 +12,22 @@ let info= {
     'age': '23'
 }
 console.log(info);
-//object.property
+//Acess value using dot notation! object.property
 let n = info.name;
 console.log(n);
-//object.['property]
+//Acess value using bracket notation! (object.['property])
 let a= info['age']
 console.log(a);
+//Modyfying property value using dot notation
+info.name='Sarreha';
+console.log(info);
+//Modifying property value using bracket notation
+info['cgpa']='4';
+info['age']='25';
+console.log(info);
+//Adding new property using dot notation
 info.address='Dhaka'
 console.log(info);
-//dot notation
-console.log(info.bloodGroup);
-//bracket notation
-console.log(info['bloodGroup']);
+//Adding new property using bracket notation
 info['gender']='female';
-
 console.log(info);
