@@ -35,7 +35,21 @@ console.log(info);
 let x = 2;
 let y = 3;
 let z = x + y;
-console.log(z);
+console.log(a);
+let p = 2;
+let q = 3;
+let r = p % q;
+console.log(r);
+//Adding javascript string
+let firstName = "Sarreha";
+let middleName = "Tasmin";
+let lastName = "Rikta";
+let fullName = firstName + " " + middleName + " " + lastName;
+console.log (fullName);
+
+
+
+
 
 
 
