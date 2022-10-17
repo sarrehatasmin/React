@@ -31,3 +31,15 @@ console.log(info);
 //Adding new property using bracket notation
 info['gender']='female';
 console.log(info);
+// Javascript Operator
+let x = 2;
+let y = 3;
+let z = x + y;
+console.log(z);
+
+
+
+
+
+
+
