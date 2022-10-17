@@ -46,8 +46,17 @@ let middleName = "Tasmin";
 let lastName = "Rikta";
 let fullName = firstName + " " + middleName + " " + lastName;
 console.log (fullName);
-
-
+// Adding string and numbers
+let m= 6 + 5;
+let w = "9" + 5;
+let o = "Rikta" + 6;
+console.log (m);
+console.log (w);
+console.log (o);
+let c1 = 5;
+let c2 = 5;
+let alert = (c1 * c2);
+console.log (alert);
 
 
 
