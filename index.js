@@ -53,10 +53,7 @@ let o = "Rikta" + 6;
 console.log (m);
 console.log (w);
 console.log (o);
-let c1 = 5;
-let c2 = 5;
-let alert = (c1 * c2);
-console.log (alert);
+
 
 
 
