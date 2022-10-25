@@ -53,6 +53,16 @@ let o = "Rikta" + 6;
 console.log (m);
 console.log (w);
 console.log (o);
+// create function
+let studentName;
+function student (studentName){
+    console.log(studentName +" is a brilliant student");
+}
+
+student("Rikta");
+student("Nitish");
+student("Tasmin");
+console.log(studentName);
 
 
 
