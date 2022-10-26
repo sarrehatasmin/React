@@ -5,8 +5,14 @@
 
 
 <h1 style="color:blueviolet">This is my first html project</h1>
+<button onclick="showDate ()">The time is </button>
 <script src="index.js"> </script>
-
+<script>
+function showDate (){
+    document.getElementById("demo").innerHTML=Date();
+}
+</script>
+<p id="demo"></p>
 </body>
 
 </html>

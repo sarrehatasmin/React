@@ -22,7 +22,6 @@ maritalStatus:"Unmarried",
 age:23,
 
 study: function (person,time){
-    this.study2();
 console.log(person + " is studying from"+time);
  },
 
@@ -40,3 +39,12 @@ stu.study2("Tasnuva","10 pm");
 // access property
 console.log(stu.fullName);
 console.log(stu["address"]);
+//object length
+let text= "Amar Sonar Bangla ami tomai valobashi";
+console.log(text.length);
+//Escape character
+let text1= "I love my \"parents\" very much";
+console.log(text1);
+
+
+
