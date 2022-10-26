@@ -45,6 +45,14 @@ console.log(text.length);
 //Escape character
 let text1= "I love my \"parents\" very much";
 console.log(text1);
+//Extracting String Parts
+let str= "My name is Rikta";
+console.log(str.slice(11,16));
+console.log(str.slice(-6,-2));
+// replacing a word
+let text2="My name is Sarreha";
+let newtext2=text2.replace("Sarreha","Rikta");
+console.log(newtext2);
 
 
 
