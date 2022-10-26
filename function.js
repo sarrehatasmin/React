@@ -53,6 +53,9 @@ console.log(str.slice(-6,-2));
 let text2="My name is Sarreha";
 let newtext2=text2.replace("Sarreha","Rikta");
 console.log(newtext2);
+//string search
+let stri = "Please locate where 'locate' occurs!";
+console.log(stri.indexOf("where"));
 
 
 
