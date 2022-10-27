@@ -56,6 +56,12 @@ console.log(newtext2);
 //string search
 let stri = "Please locate where 'locate' occurs!";
 console.log(stri.indexOf("where"));
-
-
+// template literal
+let template=`Nice to meet you, you are
+a beatiful lady with kind heart`;
+console.log(template);
+let temp1 = "bangladesh";
+let a=17;
+let b= 1;
+console.log(` i love my ${temp1} and it's population is ${a+b} corer`);
 
