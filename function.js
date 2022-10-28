@@ -65,5 +65,3 @@ let a=17;
 let b= 1;
 console.log(` i love my ${temp1} and it's population is ${a+b} corer`);
 
-
-
