@@ -64,4 +64,8 @@ let temp1 = "bangladesh";
 let a=17;
 let b= 1;
 console.log(` i love my ${temp1} and it's population is ${a+b} corer`);
+// Number method
+let x=123;
+x.toString();
+console.log(typeof x);
 
