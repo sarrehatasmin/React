@@ -67,5 +67,13 @@ console.log(` i love my ${temp1} and it's population is ${a+b} corer`);
 // Number method
 let x=123;
 x.toString();
-console.log(typeof x);
+let newN= x.toString();
+console.log(typeof newN);
+let newNum=(100+23).toString;
+console.log(typeof newNum);
+let num = Number.EPSILON;
+console.log(num);
+let num1 = Number.MAX_VALUE;
+console.log(num1);
+
 
