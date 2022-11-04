@@ -75,6 +75,31 @@ let num = Number.EPSILON;
 console.log(num);
 let num1 = Number.MAX_VALUE;
 console.log(num1);
+// looping array elements
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let fLen = fruits.length;
 
+for (let i = 0; i < fLen; i++) {
+    console.log (fruits[i]);
+}
 
+//foreach function for array
+ const names =["Rikta", "Tasmin", "Sarreha", "Riku"];
 
+  function myName (value){
+console.log(value);
+ }
+ names.push("Tasnim");
+ names.splice(0,2,"Sarreha","Tasmin");
+ names[names.length]="Sanymon";
+names.forEach(myName);
+//merging three arrays. It is used instead of splice
+const arr1 = ["Cecilie", "Lone"];
+const arr2 = ["Emil", "Tobias", "Linus"];
+const arr3 = ["Robin", "Morgan"];
+const myChildren = arr1.concat(arr2, arr3);
+console.log(myChildren);
+const arr4 = ["Nisi", "mamun"];
+const arr5 = ["Emli",  "Linus"];
+const myChildren1=arr4.concat(arr5,"Nitish","Biswas");
+console.log(myChildren1);
