@@ -103,3 +103,40 @@ const arr4 = ["Nisi", "mamun"];
 const arr5 = ["Emli",  "Linus"];
 const myChildren1=arr4.concat(arr5,"Nitish","Biswas");
 console.log(myChildren1);
+console.log(myChildren1.sort());
+const fruits2 = ["Banana", "Orange", "Apple", "Mango"];
+console.log(fruits2.sort());
+console.log(fruits2.reverse());
+//sort number in ascending order
+const num2=[45, 90, 2, 80,32];
+num2.sort(function myNum(a,b){
+    return a-b;
+})
+console.log(num2);
+//sort number in descending order
+const num3=[45, 90, 2, 80,32];
+num3.sort(function myNum(a,b){
+    return b-a;
+})
+console.log(num3);
+console.log (Math.max(45.23,30,100));
+console.log (Math.min(50, 10, 6, 90));
+// sorting object arrays
+const cars = [
+    {type:"Volvo", year:2016},
+    {type:"Saab", year:2001},
+    {type:"BMW", year:2010}
+  ];
+  cars.sort(function myCars(a,b){
+
+return a.year-b.year;
+  })
+ console.log(cars);
+ cars.sort(function myCars(a,b){
+    let x=a.type.toLowerCase();
+    let y=b.type.toLowerCase();
+    if(x<y){return -1};
+    if (x>y){return 1};
+    return 0;
+ })
+ console.log(cars);
