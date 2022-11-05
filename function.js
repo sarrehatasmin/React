@@ -188,4 +188,31 @@ return a.year-b.year;
 
  const newNums2= numbers4.reduce(myNumbers4);
  console.log(newNums2);
- 
+ //every method
+ const numbers5 = [45, 4, 9, 16, 25];
+
+function myFunction2(value, index, array) {
+  return value > 18;
+}
+const everyNum= numbers5.every(myFunction2);
+console.log(everyNum);
+//indexOf method
+const fruits3 = ["Apple", "Orange", "Apple", "Mango"];
+let position = fruits3.indexOf("Mango");
+console.log(position);
+//lastindexof
+const fruits6 = ["Apple", "Orange", "Apple", "Mango"];
+let position2 = fruits.lastIndexOf("Apple")+1;
+console.log(position2);
+//includes method
+const fruits7 = ["Banana", "Orange", "Apple", "Mango"];
+
+console.log(fruits7.includes("Pineapple"));
+//fund method
+
+const numbers6 = [4, 9, 16, 25, 29];
+function myFunction3(value, index, array) {
+  return value > 18;
+}
+let first = numbers6.find(myFunction3);
+console.log(first);
