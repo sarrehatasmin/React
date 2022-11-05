@@ -140,3 +140,52 @@ return a.year-b.year;
     return 0;
  })
  console.log(cars);
+ // array method (for each)
+ const numbers1=[23, 1, 80,42,40,20];
+ function myNumbers(value, index, array){
+        console.log(value);
+        console.log(index);
+        console.log(array);
+        console.log("***********************");
+        
+ }
+ numbers1.forEach(myNumbers);
+ //map method
+ const numbers2=[23, 1, 80,42,40,20];
+ function myNumbers1(value, index, array){
+        console.log(index);
+        console.log(array);
+        console.log("------------"); 
+        return value*2;
+        
+ }
+
+ const newNums= numbers1.map(myNumbers1);
+ console.log(newNums);
+ //filter method
+
+ const numbers3=[20, 10, 80,40,40,30];
+ function myNumbers3(value, index, array){
+        console.log(index);
+        console.log(array);
+        console.log("------------"); 
+        return value>20;
+        
+ }
+
+ const newNums1= numbers3.filter(myNumbers3);
+ console.log(newNums1);
+ //reduce method
+ const numbers4=[20, 10, 80,40,40,30];
+ function myNumbers4(total,value, index, array){
+        console.log(total);
+        console.log(index);
+        console.log(array);
+        console.log("------------"); 
+        return value+total;
+        
+ }
+
+ const newNums2= numbers4.reduce(myNumbers4);
+ console.log(newNums2);
+ 
