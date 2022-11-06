@@ -216,3 +216,17 @@ function myFunction3(value, index, array) {
 }
 let first = numbers6.find(myFunction3);
 console.log(first);
+//date format
+const d=new Date();
+console.log(d);
+const d1=new Date(2022,10,07);
+console.log(d1);
+const d2=new Date(86400000);
+console.log(d2);
+const d3 = new Date("2021-03-25");
+console.log (d3.getFullYear());
+const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+const d4 = new Date("2021-03-25");
+let month = months[d4.getMonth()];
+console.log (month);
