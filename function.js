@@ -230,3 +230,25 @@ const months = ["January", "February", "March", "April", "May", "June", "July", 
 const d4 = new Date("2021-03-25");
 let month = months[d4.getMonth()];
 console.log (month);
+//math method
+console.log (Math.round(3.93));
+//random method
+const rdom=Math.floor(Math.random() * 6) + 1;
+console.log(rdom);
+
+//random function for ludu
+function getRndInteger(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) ) + min;
+}
+console.log(getRndInteger(1,6));
+//find out leapyear
+function isLeapYear (year){
+  if ((year%400===0)|| ((year%100!==0)&&(year%4===0))){
+    console.log(`${year} is a leap year`);
+  }
+  else{
+    console.log(`${year} is not a leap year`);
+  }
+  }
+
+isLeapYear(1992);
