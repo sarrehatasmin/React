@@ -21,7 +21,7 @@ if(isNaN(age)){
             console.log ("Wednesday");
           break;
         case 4:
-            console.log ("Thrusday");
+            console.log ("Thursday");
           break;
         case 5:
             console.log ("Friday");
@@ -29,3 +29,18 @@ if(isNaN(age)){
         case 6:
             console.log ("Saturday");
       }
+
+// for In loop
+      const person = {fname:"John", lname:"Doe", age:25};
+      for(let x in person){
+        //console.log(x);
+        console.log(person[x]);
+
+      }
+// forIn loop in array. but it's not good to use for In loop in array
+      const number = [10,20,10,0,70.90];
+      for(let x in number){
+        //console.log(x);
+        console.log(number[x]);
+
+      }  
