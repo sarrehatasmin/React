@@ -252,3 +252,25 @@ function isLeapYear (year){
   }
 
 isLeapYear(1992);
+//count vowel from a sentence
+const vowels=["a","e","i","o","u","A","E","I","O","U"];
+function countVowel (sentence){
+      count=0;
+      let letter=Array.from(sentence)   
+      letter.forEach (function (value){
+              if (vowels.includes(value)){
+                count++;
+              }
+              
+      });
+      return count;
+
+}
+console.log(countVowel("My name is Rikta"));
+//find out duplicate numbers from an array
+const nums=[1,2,3,5,1,2,8,4,5];
+const duplicate= nums.filter(function (value,index){
+         return nums.indexOf(value)!==index;
+
+})
+console.log(duplicate);
