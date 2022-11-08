@@ -44,3 +44,33 @@ if(isNaN(age)){
         console.log(number[x]);
 
       }  
+
+
+// for of loop in array
+const cars = ["BMW", "Volvo", "Mini"];
+//let text = "";
+for (let x1 of cars) {
+ console.log(x1);
+}
+// for Of in string
+let person1= "Rikta";
+for(let x of person1){
+  console.log(x);
+}
+//while loop
+let i=0;
+while(i<10){
+  console.log("the number is\n",i);
+  i++;
+}
+//crate a map
+const fruits = new Map([
+  ["apples", 500],
+  ["bananas", 300],
+  ["oranges", 200]
+]);
+fruits.set("Watermelon", 200);
+console.log(fruits);
+const frut=fruits.get("oranges");
+console.log(frut);
+console.log(fruits.size);
