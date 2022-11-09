@@ -74,3 +74,15 @@ console.log(fruits);
 const frut=fruits.get("oranges");
 console.log(frut);
 console.log(fruits.size);
+// List all entries
+let text = "";
+fruits.forEach (function(value, key) {
+  text += key + ' = ' + value;
+})
+console.log(text);
+// List all entries
+let text1 = "";
+for (const x3 of fruits.entries()) {
+  text1 += x3;
+  console.log(x3);
+}
