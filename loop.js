@@ -86,3 +86,14 @@ for (const x3 of fruits.entries()) {
   text1 += x3;
   console.log(x3);
 }
+//Regular expression
+let text2 = "Visit W3Schools!";
+let n = text2.search("W3Schools");
+console.log(n);
+let text3 = "Visit W3Schools";
+let n1 = text3.search(/w3schools/i);
+console.log(n1);
+let text4 = "Visit Microsoft!";
+let result = text4.replace("Microsoft", "W3Schools");
+console.log(result);
+
