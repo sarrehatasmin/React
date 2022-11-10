@@ -138,5 +138,34 @@ const member = {
 }
 let fullName=person5.fullName.bind(member);
 console.log(fullName());
+//Constructor 
+class Car {
+  constructor(name, year) {
+    this.name = name;
+    this.year = year;
+  }
 
+launch(){
+  console.log(`${this.name} is a good car`);
+}
+}
+const car1= new Car("BMW",2017);
+console.log(car1);
+car1.launch();
+//new example of constructor
+class Car2 {
+  constructor(name, year) {
+    this.name = name;
+    this.year = year;
+  }
+  age(x) {
+    return x - this.year;
+  }
+}
 
+let date = new Date();
+let year = date.getFullYear();
+
+let myCar = new Car2("Ford", 2014);
+
+console.log("My car is " + myCar.age(year) + " years old.");
