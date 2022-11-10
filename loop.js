@@ -96,4 +96,47 @@ console.log(n1);
 let text4 = "Visit Microsoft!";
 let result = text4.replace("Microsoft", "W3Schools");
 console.log(result);
+// this keyword
+const person2 = {
+  firstName: "John",
+  lastName : "Doe",
+  id       : 5566,
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  },
+  getName: function(){
+
+  }
+};
+console.log(person2.fullName());
+//Explicit function binding using call 
+const person3 = {
+  fullName: function() {
+    return this.firstName + " " + this.lastName;
+  }
+}
+
+const person4 = {
+  firstName:"John",
+  lastName: "Doe",
+}
+
+// Return "John Doe":
+console.log(person3.fullName.call(person4));
+//Function borrowing
+const person5 = {
+  firstName:"John",
+  lastName: "Doe",
+  fullName: function () {
+    return this.firstName + " " + this.lastName;
+  }
+}
+
+const member = {
+  firstName:"Hege",
+  lastName: "Nilsen",
+}
+let fullName=person5.fullName.bind(member);
+console.log(fullName());
+
 
